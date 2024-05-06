@@ -12,7 +12,7 @@ The system must provide:
     - Lot records
 
     - Customer details
-- Ability to create, update, and delete records in the database using a console user interface (UI).
+- Ability to create, retrieve, update, and delete records in the database using a console user interface (UI).
 - Ability to search the database from the console UI.
 - Each record should have a unique identifier.
 - Ability to relate the records by their unique identifiers.
