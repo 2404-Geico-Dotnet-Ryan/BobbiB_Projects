@@ -2,7 +2,7 @@
 
 ## Building Lot Management System
 
-### As a builder, I need a system that will store pertinent details related to our building lots inventory and related customers.
+### As a builder, I need a system that will store pertinent details related to our building lot inventory and related customers.
 
 
 The system must provide:
@@ -12,11 +12,12 @@ The system must provide:
     - Lot records
 
     - Customer details
-- Ability to create, retrieve, update, and delete records in the database using a console user interface (UI).
+- Ability to create, update, and delete records in the database using a console user interface (UI).
 - Ability to search the database from the console UI.
 - Each record should have a unique identifier.
 - Ability to relate the records by their unique identifiers.
 - Access to the system requires a valid user name and password
+    - access to Customer details can be limited to specific users
 - Error Handling
 - Input validation
 
@@ -56,10 +57,10 @@ Customer Detail Requirements
 - Email
 - Related Lot Number 
     - allow for multiples
-- Related Customer ID
+- Related Customer ID  *REMOVED
     - allow for multiples
 - Status: Interest, No Interest, Holding Lot(s), Purchased Lot(s)
-- Statue Date (YYYY/MM/DD)
+- Status Date (YYYY/MM/DD)
 
 
 ## Diagram
